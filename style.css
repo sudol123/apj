@@ -9,7 +9,7 @@ body
 
 #container
 {
-	background-image: url("img/tlo.png");
+	background-image: url(img/tlo.png);
 	margin-left: auto;
 	margin-right: auto;
 	min-width:1000px;
@@ -36,14 +36,13 @@ body
 	width:100%;
 }
 #logo{
-	width:25%;
+	
 	height:50px;
-	background-color:pink;
 	float:left;
 }
 #nav{
 	float:right;
-	font-size:30px;
+	font-size:28px;
 	height:50px;
 	
 }
@@ -115,9 +114,11 @@ u1 > li:visited > a
 	height:200px;
 }
 .jpg{
-	width:100%;
+	width:980px;
 	height:250px;
-	border: 1px solid black;
+	border: 1px gray solid;
+	margin-left:auto;
+	margin-right:auto;
 }
 .main2{
 	width:800px;
