@@ -36,15 +36,14 @@ body
 	width:100%;
 }
 #logo{
-	
 	height:50px;
 	float:left;
 }
 #nav{
-	float:right;
-	font-size:28px;
-	height:50px;
 	
+	font-size:26px;
+	height:50px;
+	float:right;
 }
 u1{
 	padding: 0;
