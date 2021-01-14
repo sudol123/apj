@@ -18,9 +18,9 @@
 					</div>
 					<div id="nav">
 						<u1>
-						<li><a href="index.html"><b>O nas</b></a></li>
-						<li><a href="pd.html">Profil działalności</a></li>
-						<li><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="index.html"><b>o nas</b></a></li>
+						<li><a href="pd.html">profil działalności</a></li>
+						<li><a href="kontakt.html">kontakt</a></li>
 						</u1>
 					</div>
 				</div>
@@ -59,7 +59,29 @@
 		</div>
 	</div>	
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.top2').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY ) { 
+		$('.top2').addClass('sticky');
+	} else {
+		$('.top2').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
 	
+</script>
 	
 </body>
 </html>
