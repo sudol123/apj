@@ -147,10 +147,11 @@ u1 > li:visited > a
 	float:left;
 	text-align:left;
 	border-right:1px black solid;
+	padding-left:10px;
 	
 }
 .prawy{
 	width:65%;
 	float:right;
-	
+	padding-right:10px;
 }
